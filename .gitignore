@@ -1,0 +1,20 @@
+# env
+.venv/
+venv/
+
+# notebooks
+.ipynb_checkpoints/
+
+# data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/README.md
+!data/interim/README.md
+!data/processed/README.md
+
+# misc
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

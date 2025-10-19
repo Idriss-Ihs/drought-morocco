@@ -1,0 +1,26 @@
+project:
+  name: "Morocco Drought Monitoring"
+  crs: "EPSG:4326"
+  bbox:
+    lon_min: -13.5
+    lon_max: -1.0
+    lat_min: 21.0
+    lat_max: 36.0
+  period:
+    start: "1981-01-01"
+    end: "2025-12-31"
+
+paths:
+  raw: "data/raw/"
+  interim: "data/interim/"
+  processed: "data/processed/"
+  logs: "etl_log.txt"
+
+products:
+  spi_timescales: [1, 3, 6, 12]
+  spei_timescales: [1, 3, 6, 12]
+
+sources:
+  chirps_monthly: "CHIRPS monthly precip (1981-present)"
+  era5_land: "ERA5-Land variables for PET (T2m, wind, radiation, humidity)"
+  gadm: "GADM level-1 Morocco boundaries"
