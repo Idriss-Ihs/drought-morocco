@@ -18,3 +18,7 @@
 2025-10-19 22:15:58 - WARNING - Failed to download 2003: 404 Client Error: Not Found for url: https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/netcdf/chirps-v2.0.2003.monthly.nc
 2025-10-19 22:15:59 - WARNING - Failed to download 2004: 404 Client Error: Not Found for url: https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/netcdf/chirps-v2.0.2004.monthly.nc
 2025-10-19 22:19:10 - INFO - Starting CHIRPS data ingestion pipeline
+2025-10-20 21:13:51 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-20 21:13:51 - INFO - Starting CHIRPS downloads (1981–2025)
+2025-10-20 21:18:45 - WARNING - Failed to download 1981: ('Connection broken: IncompleteRead(24903408 bytes read, 146201312 more expected)', IncompleteRead(24903408 bytes read, 146201312 more expected))
+2025-10-20 21:24:15 - WARNING - Failed to download 1982: ('Connection broken: IncompleteRead(40320752 bytes read, 130854921 more expected)', IncompleteRead(40320752 bytes read, 130854921 more expected))
