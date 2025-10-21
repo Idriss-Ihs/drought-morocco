@@ -2,10 +2,10 @@ project:
   name: "Morocco Drought Monitoring"
   crs: "EPSG:4326"
   bbox:
-    lon_min: -13.5
-    lon_max: -1.0
-    lat_min: 21.0
-    lat_max: 36.0
+    lat_min: 20
+    lat_max: 38
+    lon_min: -20
+    lon_max: 0
   period:
     start: "1981-01-01"
     end: "2025-12-31"
