@@ -40,7 +40,10 @@ def download_chirps(years, out_dir, logger):
 
 
 def subset_morocco(cfg, logger):
-    """Clip CHIRPS global to Morocco bbox."""
+    """
+    Merge all downloaded CHIRPS files and clip them to Morocco's bounding box.
+    Output: data/interim/chirps_morocco.nc
+    """
     raw_path = Path(cfg["paths"]["raw"])
     interim_path = Path(cfg["paths"]["interim"])
     interim_path.mkdir(parents=True, exist_ok=True)
@@ -49,16 +52,51 @@ def subset_morocco(cfg, logger):
     if not files:
         logger.error("No CHIRPS files found to merge — aborting.")
         return
-    
+
     logger.info(f"Merging {len(files)} CHIRPS files...")
 
-    ds = xr.open_mfdataset(files, combine="by_coords")
-    ds = ds.sel(
-        latitude=slice(cfg["project"]["bbox"]["lat_max"], cfg["project"]["bbox"]["lat_min"]),
-        longitude=slice(cfg["project"]["bbox"]["lon_min"], cfg["project"]["bbox"]["lon_max"]),
+    # safer multi-file open
+    ds = xr.open_mfdataset(files, combine="by_coords", chunks={"time": 12})
+
+    # --- rebuild clean coordinate variables ---
+    lat = ds.latitude.values
+    lon = ds.longitude.values
+
+    ds = ds.assign_coords(
+        latitude=("latitude", lat.astype("float32")),
+        longitude=("longitude", lon.astype("float32"))
     )
-    ds.to_netcdf(interim_path / "chirps_morocco.nc")
-    logger.info("Saved subset → data/interim/chirps_morocco.nc")
+
+    # remove any problematic encodings inherited from CHIRPS
+    for var in ds.coords:
+        ds[var].encoding.clear()
+
+    # --- Determine correct slice direction ---
+    lat = ds.latitude
+    bbox = cfg["project"]["bbox"]
+
+    if lat.values[0] > lat.values[-1]:
+        # latitude descending
+        ds_sub = ds.sel(
+            latitude=slice(bbox["lat_max"], bbox["lat_min"]),
+            longitude=slice(bbox["lon_min"], bbox["lon_max"])
+        )
+    else:
+        # latitude ascending
+        ds_sub = ds.sel(
+            latitude=slice(bbox["lat_min"], bbox["lat_max"]),
+            longitude=slice(bbox["lon_min"], bbox["lon_max"])
+        )
+        # make sure we don't carry encoding trouble to disk
+        for v in ds_sub.variables:
+            ds_sub[v].encoding.clear()
+
+    output_path = interim_path / "chirps_morocco.nc"
+    ds_sub.to_netcdf(output_path, engine="netcdf4", format="NETCDF4")
+
+    logger.info(f"Saved subset to {output_path}")
+
+
 
 
 if __name__ == "__main__":

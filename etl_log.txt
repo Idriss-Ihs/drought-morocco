@@ -22,3 +22,302 @@
 2025-10-20 21:13:51 - INFO - Starting CHIRPS downloads (1981–2025)
 2025-10-20 21:18:45 - WARNING - Failed to download 1981: ('Connection broken: IncompleteRead(24903408 bytes read, 146201312 more expected)', IncompleteRead(24903408 bytes read, 146201312 more expected))
 2025-10-20 21:24:15 - WARNING - Failed to download 1982: ('Connection broken: IncompleteRead(40320752 bytes read, 130854921 more expected)', IncompleteRead(40320752 bytes read, 130854921 more expected))
+2025-10-21 09:52:37 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 09:52:37 - INFO - Starting CHIRPS downloads (1981–2025)
+2025-10-21 09:54:44 - INFO - 1981: downloaded successfully
+2025-10-21 09:56:44 - INFO - 1982: downloaded successfully
+2025-10-21 09:58:57 - INFO - 1983: downloaded successfully
+2025-10-21 10:01:18 - INFO - 1984: downloaded successfully
+2025-10-21 10:31:06 - WARNING - Failed to download 1985: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Read timed out.
+2025-10-21 10:36:49 - INFO - 1986: downloaded successfully
+2025-10-21 10:40:22 - INFO - 1987: downloaded successfully
+2025-10-21 10:43:22 - INFO - 1988: downloaded successfully
+2025-10-21 10:46:10 - INFO - 1989: downloaded successfully
+2025-10-21 10:54:50 - INFO - 1990: downloaded successfully
+2025-10-21 11:04:06 - INFO - 1991: downloaded successfully
+2025-10-21 11:12:42 - INFO - 1992: downloaded successfully
+2025-10-21 11:17:44 - INFO - 1993: downloaded successfully
+2025-10-21 11:26:20 - INFO - 1994: downloaded successfully
+2025-10-21 11:37:06 - INFO - 1995: downloaded successfully
+2025-10-21 11:43:54 - INFO - 1996: downloaded successfully
+2025-10-21 11:56:41 - INFO - 1997: downloaded successfully
+2025-10-21 11:56:41 - WARNING - Failed to download 1998: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.1998.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26779090>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 1999: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.1999.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677AA90>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 2000: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2000.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE267749D0>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 2001: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2001.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26776910>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 2002: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2002.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677C890>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 2003: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2003.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26777310>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 2004: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2004.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26775810>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 11:56:41 - WARNING - Failed to download 2005: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2005.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677B910>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2006: ('Connection broken: IncompleteRead(107151088 bytes read, 63893093 more expected)', IncompleteRead(107151088 bytes read, 63893093 more expected))
+2025-10-21 12:04:44 - WARNING - Failed to download 2007: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2007.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677ADD0>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2008: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2008.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677C310>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2009: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2009.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677EED0>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2010: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2010.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE16D09510>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2011: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2011.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26779B90>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2012: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2012.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2676A3D0>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2013: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2013.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26776750>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2014: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2014.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677DD10>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2015: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2015.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677C350>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2016: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2016.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26768DD0>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2017: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2017.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677B650>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2018: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2018.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE1825AE10>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2019: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2019.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26776910>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2020: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2020.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26777D50>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2021: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2021.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677D290>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2022: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2022.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2673F910>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2023: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2023.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677A090>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2024: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2024.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE2677BE50>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - WARNING - Failed to download 2025: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2025.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FE26774AD0>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 12:04:44 - INFO - CHIRPS download stage completed.
+2025-10-21 12:04:44 - INFO - Merging 18 CHIRPS files...
+2025-10-21 12:06:04 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 12:06:04 - INFO - Starting CHIRPS downloads (1998–2025)
+2025-10-21 12:08:38 - INFO - 1998: downloaded successfully
+2025-10-21 12:10:30 - INFO - 1999: downloaded successfully
+2025-10-21 12:12:19 - INFO - 2000: downloaded successfully
+2025-10-21 12:14:49 - INFO - 2001: downloaded successfully
+2025-10-21 12:17:34 - INFO - 2002: downloaded successfully
+2025-10-21 12:23:39 - INFO - 2003: downloaded successfully
+2025-10-21 12:27:00 - INFO - 2004: downloaded successfully
+2025-10-21 12:30:33 - INFO - 2005: downloaded successfully
+2025-10-21 12:34:20 - INFO - 2006: downloaded successfully
+2025-10-21 12:39:41 - INFO - 2007: downloaded successfully
+2025-10-21 12:42:44 - INFO - 2008: downloaded successfully
+2025-10-21 12:44:36 - INFO - 2009: downloaded successfully
+2025-10-21 12:45:54 - INFO - 2010: downloaded successfully
+2025-10-21 12:47:55 - INFO - 2011: downloaded successfully
+2025-10-21 12:49:53 - INFO - 2012: downloaded successfully
+2025-10-21 12:51:42 - INFO - 2013: downloaded successfully
+2025-10-21 12:52:49 - INFO - 2014: downloaded successfully
+2025-10-21 12:54:22 - INFO - 2015: downloaded successfully
+2025-10-21 12:56:02 - INFO - 2016: downloaded successfully
+2025-10-21 12:57:42 - INFO - 2017: downloaded successfully
+2025-10-21 12:59:09 - INFO - 2018: downloaded successfully
+2025-10-21 13:00:01 - WARNING - Failed to download 2019: ('Connection broken: IncompleteRead(39452400 bytes read, 131633540 more expected)', IncompleteRead(39452400 bytes read, 131633540 more expected))
+2025-10-21 13:00:01 - WARNING - Failed to download 2020: HTTPSConnectionPool(host='data.chc.ucsb.edu', port=443): Max retries exceeded with url: /products/CHIRPS-2.0/global_monthly/netcdf/byYear/chirps-v2.0.2020.monthly.nc (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000252B60D1210>: Failed to resolve 'data.chc.ucsb.edu' ([Errno 11001] getaddrinfo failed)"))
+2025-10-21 13:01:30 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 13:01:30 - INFO - Starting CHIRPS downloads (2019–2025)
+2025-10-21 13:04:00 - WARNING - Failed to download 2019: ('Connection broken: IncompleteRead(116621040 bytes read, 54464900 more expected)', IncompleteRead(116621040 bytes read, 54464900 more expected))
+2025-10-21 13:04:36 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 13:04:36 - INFO - Starting CHIRPS downloads (2019–2025)
+2025-10-21 13:06:25 - INFO - 2019: downloaded successfully
+2025-10-21 13:08:32 - INFO - 2020: downloaded successfully
+2025-10-21 13:11:11 - INFO - 2021: downloaded successfully
+2025-10-21 13:15:59 - INFO - 2022: downloaded successfully
+2025-10-21 13:20:04 - INFO - 2023: downloaded successfully
+2025-10-21 13:23:38 - INFO - 2024: downloaded successfully
+2025-10-21 13:26:06 - INFO - 2025: downloaded successfully
+2025-10-21 13:26:06 - INFO - CHIRPS download stage completed.
+2025-10-21 13:26:06 - INFO - Merging 45 CHIRPS files...
+2025-10-21 13:32:42 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 13:32:42 - INFO - Starting CHIRPS downloads (2019–2025)
+2025-10-21 13:32:42 - INFO - 2019: already exists, skipping.
+2025-10-21 13:32:42 - INFO - 2020: already exists, skipping.
+2025-10-21 13:32:42 - INFO - 2021: already exists, skipping.
+2025-10-21 13:32:42 - INFO - 2022: already exists, skipping.
+2025-10-21 13:32:42 - INFO - 2023: already exists, skipping.
+2025-10-21 13:32:42 - INFO - 2024: already exists, skipping.
+2025-10-21 13:32:42 - INFO - 2025: already exists, skipping.
+2025-10-21 13:32:42 - INFO - CHIRPS download stage completed.
+2025-10-21 13:32:42 - INFO - Merging 44 CHIRPS files...
+2025-10-21 13:33:13 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 13:33:13 - INFO - Starting CHIRPS downloads (1981–2025)
+2025-10-21 13:33:13 - INFO - 1981: already exists, skipping.
+2025-10-21 13:33:13 - INFO - 1982: already exists, skipping.
+2025-10-21 13:33:13 - INFO - 1983: already exists, skipping.
+2025-10-21 13:33:13 - INFO - 1984: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1985: downloaded successfully
+2025-10-21 13:35:25 - INFO - 1986: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1987: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1988: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1989: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1990: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1991: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1992: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1993: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1994: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1995: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1996: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1997: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1998: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 1999: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2000: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2001: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2002: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2003: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2004: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2005: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2006: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2007: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2008: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2009: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2010: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2011: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2012: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2013: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2014: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2015: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2016: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2017: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2018: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2019: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2020: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2021: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2022: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2023: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2024: already exists, skipping.
+2025-10-21 13:35:25 - INFO - 2025: already exists, skipping.
+2025-10-21 13:35:25 - INFO - CHIRPS download stage completed.
+2025-10-21 13:35:25 - INFO - Merging 45 CHIRPS files...
+2025-10-21 13:36:56 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 13:36:56 - INFO - Starting CHIRPS downloads (1981–2025)
+2025-10-21 13:36:56 - INFO - 1981: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1982: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1983: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1984: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1985: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1986: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1987: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1988: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1989: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1990: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1991: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1992: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1993: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1994: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1995: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1996: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1997: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1998: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 1999: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2000: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2001: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2002: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2003: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2004: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2005: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2006: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2007: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2008: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2009: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2010: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2011: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2012: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2013: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2014: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2015: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2016: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2017: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2018: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2019: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2020: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2021: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2022: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2023: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2024: already exists, skipping.
+2025-10-21 13:36:56 - INFO - 2025: already exists, skipping.
+2025-10-21 13:36:56 - INFO - CHIRPS download stage completed.
+2025-10-21 13:36:56 - INFO - Merging 45 CHIRPS files...
+2025-10-21 13:38:20 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 13:38:20 - INFO - Starting CHIRPS downloads (1981–2025)
+2025-10-21 13:38:20 - INFO - 1981: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1982: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1983: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1984: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1985: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1986: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1987: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1988: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1989: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1990: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1991: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1992: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1993: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1994: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1995: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1996: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1997: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1998: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 1999: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2000: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2001: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2002: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2003: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2004: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2005: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2006: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2007: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2008: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2009: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2010: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2011: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2012: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2013: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2014: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2015: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2016: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2017: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2018: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2019: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2020: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2021: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2022: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2023: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2024: already exists, skipping.
+2025-10-21 13:38:20 - INFO - 2025: already exists, skipping.
+2025-10-21 13:38:20 - INFO - CHIRPS download stage completed.
+2025-10-21 13:38:20 - INFO - Merging 45 CHIRPS files...
+2025-10-21 13:38:23 - INFO - Saved subset to data\interim\chirps_morocco.nc
+2025-10-21 13:38:24 - INFO - ==== CHIRPS ingestion pipeline completed successfully ====
+2025-10-21 19:43:17 - INFO - ==== Starting CHIRPS data ingestion pipeline ====
+2025-10-21 19:43:17 - INFO - Starting CHIRPS downloads (1981–2025)
+2025-10-21 19:43:17 - INFO - 1981: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1982: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1983: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1984: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1985: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1986: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1987: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1988: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1989: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1990: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1991: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1992: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1993: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1994: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1995: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1996: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1997: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1998: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 1999: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2000: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2001: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2002: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2003: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2004: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2005: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2006: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2007: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2008: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2009: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2010: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2011: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2012: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2013: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2014: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2015: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2016: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2017: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2018: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2019: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2020: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2021: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2022: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2023: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2024: already exists, skipping.
+2025-10-21 19:43:17 - INFO - 2025: already exists, skipping.
+2025-10-21 19:43:17 - INFO - CHIRPS download stage completed.
+2025-10-21 19:43:17 - INFO - Merging 45 CHIRPS files...
+2025-10-21 19:43:35 - INFO - Saved subset to data\interim\chirps_morocco.nc
+2025-10-21 19:43:35 - INFO - ==== CHIRPS ingestion pipeline completed successfully ====
