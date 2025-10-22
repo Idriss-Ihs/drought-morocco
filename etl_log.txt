@@ -423,3 +423,18 @@
 2025-10-21 21:39:54 - INFO - Merging 45 CHIRPS files...
 2025-10-21 21:40:04 - INFO - Saved subset to data\interim\chirps_morocco.nc
 2025-10-21 21:40:04 - INFO - ==== CHIRPS ingestion pipeline completed successfully ====
+2025-10-21 22:42:27 - INFO - Starting SPI computation
+2025-10-22 09:17:12 - INFO - Starting SPI computation
+2025-10-22 12:10:32 - INFO - Starting SPI computation
+2025-10-22 12:10:34 - INFO - Starting SPI-1 computation
+2025-10-22 16:48:53 - ERROR - SPI-1 failed: Optimization converged to parameters that are outside the range allowed by the distribution.
+2025-10-22 16:48:53 - INFO - Starting SPI-3 computation
+2025-10-22 18:09:45 - ERROR - SPI-3 failed: Optimization converged to parameters that are outside the range allowed by the distribution.
+2025-10-22 18:09:46 - INFO - Starting SPI-6 computation
+2025-10-22 21:32:47 - INFO - Starting gamma-based SPI computation (fast/MoM)
+2025-10-22 21:32:58 - INFO - Computing SPI-3 (gamma, MoM, zero-inflated)
+2025-10-22 21:37:48 - INFO - Saved spi_3.nc
+2025-10-22 21:37:48 - INFO - Computing SPI-6 (gamma, MoM, zero-inflated)
+2025-10-22 21:42:16 - INFO - Saved spi_6.nc
+2025-10-22 21:42:16 - INFO - Computing SPI-12 (gamma, MoM, zero-inflated)
+2025-10-22 21:47:06 - INFO - Saved spi_12.nc
