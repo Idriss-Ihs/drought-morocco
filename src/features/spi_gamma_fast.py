@@ -153,7 +153,7 @@ def compute_spi_gamma_fast():
     out_dir = Path(cfg["paths"]["processed"])
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Dask chunking for speed (tune if needed)
+    # Dask chunking for speed 
     # Chunk time fully (computes per-month groups), and moderate spatial chunks.
     if not pr.chunks:
         pr = pr.chunk({"time": -1, "latitude": 60, "longitude": 60})

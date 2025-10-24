@@ -438,3 +438,6 @@
 2025-10-22 21:42:16 - INFO - Saved spi_6.nc
 2025-10-22 21:42:16 - INFO - Computing SPI-12 (gamma, MoM, zero-inflated)
 2025-10-22 21:47:06 - INFO - Saved spi_12.nc
+2025-10-22 22:31:45 - INFO - Starting gamma-based SPI computation (fast/MoM)
+2025-10-22 22:31:47 - INFO - Computing SPI-1 (gamma, MoM, zero-inflated)
+2025-10-22 22:37:41 - INFO - Saved spi_1.nc

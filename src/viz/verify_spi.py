@@ -17,7 +17,7 @@ import numpy as np
 # Configuration
 # ---------------------------------------------------------------------
 
-DATA_PATH = Path("data/processed/spi_12.nc")  # choose SPI scale to visualize
+DATA_PATH = Path("data/processed/spi_1.nc")  # choose SPI scale to visualize
 assert DATA_PATH.exists(), f"File not found: {DATA_PATH}"
 
 # Load data
@@ -33,11 +33,11 @@ print(f"SPI range: {float(spi.min())} to {float(spi.max())}")
 # ---------------------------------------------------------------------
 
 months_to_plot = [
-    "1984-01-01",
-    "1995-01-01",
-    "2001-01-01",
+    "2010-11-01",
     "2014-11-01",
-    "2020-01-01"
+    "2018-11-01",
+    "2023-11-01",
+    "1988-11-01"
 ]
 
 vmin, vmax = -2.5, 2.5  # consistent color scale

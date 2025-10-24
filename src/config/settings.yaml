@@ -17,8 +17,8 @@ paths:
   logs: "etl_log.txt"
 
 products:
-  spi_timescales: [3, 6, 12]
-  spei_timescales: [3, 6, 12]
+  spi_timescales: [1, 3, 6, 12]
+  spei_timescales: [1, 3, 6, 12]
 
 sources:
   chirps_monthly: "CHIRPS monthly precip (1981-present)"
