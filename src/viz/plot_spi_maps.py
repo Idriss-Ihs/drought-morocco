@@ -11,7 +11,7 @@ import geopandas as gpd
 import numpy as np
 
 DATA_PATH = Path("data/processed/spi_3.nc")  # SPI scale
-BORDER_PATH = Path("data/external/morocco_full.shp")
+BORDER_PATH = Path("data\external\geoBoundaries-MAR-ADM2.shp")
 
 
 

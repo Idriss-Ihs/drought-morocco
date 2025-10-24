@@ -441,3 +441,31 @@
 2025-10-22 22:31:45 - INFO - Starting gamma-based SPI computation (fast/MoM)
 2025-10-22 22:31:47 - INFO - Computing SPI-1 (gamma, MoM, zero-inflated)
 2025-10-22 22:37:41 - INFO - Saved spi_1.nc
+2025-10-24 22:34:45 - INFO - Starting regional SPI aggregation
+2025-10-24 22:34:46 - INFO - Processing spi_1.nc (1-month SPI)
+2025-10-24 22:34:50 - INFO - Processing spi_12.nc (12-month SPI)
+2025-10-24 22:34:52 - INFO - Processing spi_3.nc (3-month SPI)
+2025-10-24 22:34:54 - INFO - Processing spi_6.nc (6-month SPI)
+2025-10-24 23:30:37 - INFO - Starting provincial SPI aggregation
+2025-10-24 23:30:37 - INFO - Processing spi_1.nc (1-month SPI)
+2025-10-24 23:31:07 - INFO - Processing spi_12.nc (12-month SPI)
+2025-10-24 23:31:29 - INFO - Processing spi_3.nc (3-month SPI)
+2025-10-24 23:31:50 - INFO - Processing spi_6.nc (6-month SPI)
+2025-10-24 23:36:59 - INFO - Starting provincial SPI aggregation
+2025-10-24 23:36:59 - INFO - Using column 'shapeName' for province names.
+2025-10-24 23:36:59 - INFO - Processing spi_1.nc (1-month SPI)
+2025-10-24 23:37:33 - INFO - Processing spi_12.nc (12-month SPI)
+2025-10-24 23:37:56 - INFO - Processing spi_3.nc (3-month SPI)
+2025-10-24 23:38:20 - INFO - Processing spi_6.nc (6-month SPI)
+2025-10-24 23:40:22 - INFO - Starting provincial SPI aggregation
+2025-10-24 23:40:22 - INFO - Using column 'shapeName' for province names.
+2025-10-24 23:40:22 - INFO - Processing spi_1.nc (1-month SPI)
+2025-10-24 23:40:45 - INFO - Processing spi_12.nc (12-month SPI)
+2025-10-24 23:41:05 - INFO - Processing spi_3.nc (3-month SPI)
+2025-10-24 23:41:25 - INFO - Processing spi_6.nc (6-month SPI)
+2025-10-24 23:45:58 - INFO - Starting provincial SPI aggregation
+2025-10-24 23:45:58 - INFO - Using column 'shapeName' for province names.
+2025-10-24 23:45:58 - INFO - Processing spi_1.nc (1-month SPI)
+2025-10-24 23:46:21 - INFO - Processing spi_12.nc (12-month SPI)
+2025-10-24 23:46:42 - INFO - Processing spi_3.nc (3-month SPI)
+2025-10-24 23:47:02 - INFO - Processing spi_6.nc (6-month SPI)
