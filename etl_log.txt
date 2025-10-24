@@ -476,3 +476,21 @@
 2025-10-25 00:01:47 - INFO - Computed yearly metrics for SPI-3: 3375 rows
 2025-10-25 00:01:49 - INFO - Computed yearly metrics for SPI-6: 3375 rows
 2025-10-25 00:01:51 - INFO - Computed yearly metrics for SPI-12: 3375 rows
+2025-10-25 00:08:11 - INFO - Loading shapefile: data\external\geoBoundaries-MAR-ADM2.shp
+2025-10-25 00:08:12 - INFO - Loading stats: data\processed\provincial_drought_stats.csv
+2025-10-25 00:08:13 - INFO - Saved figure: docs\figures\map_mean_spi_spi3_2020.png
+2025-10-25 00:11:25 - INFO - Loading shapefile: data\external\geoBoundaries-MAR-ADM2.shp
+2025-10-25 00:11:25 - INFO - Loading stats: data\processed\provincial_drought_stats.csv
+2025-10-25 00:11:26 - INFO - Saved figure: docs\figures\map_mean_spi_spi3_2020.png
+2025-10-25 00:12:04 - INFO - Loading shapefile: data\external\geoBoundaries-MAR-ADM2.shp
+2025-10-25 00:12:04 - INFO - Loading stats: data\processed\provincial_drought_stats.csv
+2025-10-25 00:12:05 - INFO - Saved figure: docs\figures\map_mean_spi_spi3_2023.png
+2025-10-25 00:12:49 - INFO - Loading shapefile: data\external\geoBoundaries-MAR-ADM2.shp
+2025-10-25 00:12:49 - INFO - Loading stats: data\processed\provincial_drought_stats.csv
+2025-10-25 00:12:50 - INFO - Saved figure: docs\figures\map_mean_spi_spi3_2014.png
+2025-10-25 00:13:26 - INFO - Loading shapefile: data\external\geoBoundaries-MAR-ADM2.shp
+2025-10-25 00:13:26 - INFO - Loading stats: data\processed\provincial_drought_stats.csv
+2025-10-25 00:13:26 - INFO - Saved figure: docs\figures\map_mean_spi_spi3_1996.png
+2025-10-25 00:14:02 - INFO - Loading shapefile: data\external\geoBoundaries-MAR-ADM2.shp
+2025-10-25 00:14:02 - INFO - Loading stats: data\processed\provincial_drought_stats.csv
+2025-10-25 00:14:03 - INFO - Saved figure: docs\figures\map_drought_months_moderate_spi3_2016.png

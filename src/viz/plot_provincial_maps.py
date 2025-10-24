@@ -67,7 +67,7 @@ def load_provinces(shp_path: Path) -> gpd.GeoDataFrame:
 def make_choropleth(year: int, scale: int, metric: str,
                     shp_path=Path("data/external/geoBoundaries-MAR-ADM2.shp"),
                     stats_csv=Path("data/processed/provincial_drought_stats.csv"),
-                    cmap="RdBu_r", vcenter=0.0, save_path: Path | None = None):
+                    cmap="RdBu", vcenter=0.0, save_path: Path | None = None):
     """
     Plot a choropleth for a given year, scale, metric.
 
