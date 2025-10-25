@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Drought Monitoring — Morocco (SPI)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 0; color: #111; }
+  header { padding: 24px 28px; background: #0f172a; color: #fff; }
+  h1 { margin: 0 0 6px 0; font-size: 26px; }
+  h2 { margin: 18px 0 8px 0; }
+  .container { padding: 22px 28px; max-width: 1100px; margin: auto; }
+  .grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  figure { margin: 0; background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:14px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+  figcaption { margin-top: 8px; font-size: 13px; color:#475569; }
+  .pill { display:inline-block; padding: 4px 10px; background:#e2e8f0; border-radius:999px; font-size: 12px; margin-right:8px; }
+  .row { margin: 16px 0; }
+  .code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background:#f1f5f9; padding:4px 8px; border-radius:6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Drought Monitoring — Morocco (SPI)</h1>
+  <div>
+    <span class="pill">SPI scales: 1 / 3 / 6 / 12</span>
+    <span class="pill">Admin level: Provinces (ADM2)</span>
+  </div>
+</header>
+
+<div class="container">
+  <h2>Executive Summary (SPI-12)</h2>
+  <div class="row">
+    <div class="pill">Trend slope: <strong>-0.0006</strong> SPI units per year (national mean)</div>
+  </div>
+  <div class="grid">
+    <figure>
+      <img src="../figures/national_spi_mean_spi12.png" style="width:100%; border-radius:8px"/>
+      <figcaption>National mean SPI-12 (annual). Dashed line at 0 (near normal).</figcaption>
+    </figure>
+    <figure>
+      <img src="../figures/map_mean_spi_spi12_2025.png" style="width:100%; border-radius:8px"/>
+      <figcaption>Provincial map — mean spi (SPI-12) for 2025.</figcaption>
+    </figure>
+    <figure style="grid-column: 1 / -1;">
+      <img src="../figures/top_driest_provinces_spi12_last10.png" style="width:100%; border-radius:8px"/>
+      <figcaption>Top driest provinces in the last 10 years — lower mean SPI and higher severe/extreme counts indicate worse drought conditions.</figcaption>
+    </figure>
+  </div>
+
+  <h2>Key observations</h2>
+  <ul>
+    <li>Worst (driest) national years (SPI-12): 
+      
+        <span class="pill">1981 (-1.09)</span>
+      
+        <span class="pill">1995 (-1.05)</span>
+      
+        <span class="pill">2024 (-1.04)</span>
+      
+        <span class="pill">2022 (-0.90)</span>
+      
+        <span class="pill">2025 (-0.83)</span>
+      
+    </li>
+    <li>Best (wettest) national years (SPI-12): 
+      
+        <span class="pill">2010 (1.56)</span>
+      
+        <span class="pill">1996 (1.55)</span>
+      
+        <span class="pill">2009 (1.24)</span>
+      
+        <span class="pill">2011 (0.93)</span>
+      
+        <span class="pill">1997 (0.90)</span>
+      
+    </li>
+  </ul>
+
+  <p>All figures and tables are generated programmatically from the processed SPI datasets. See repository for methodology and code.</p>
+  <p class="code">Report built from: provincial_drought_stats.csv, provincial_spi_classes.csv</p>
+</div>
+
+</body>
+</html>
