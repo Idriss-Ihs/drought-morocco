@@ -23,7 +23,7 @@ This project builds a full end-to-end drought monitoring workflow — from satel
 ## 🧩 Data Sources
 
 - 🌍 **CHIRPS v2.0** — Climate Hazards Center InfraRed Precipitation with Station data
-- 🗺️ **GeoBoundaries (ADM2)** — Official administrative boundaries (including Western Sahara)
+- 🗺️ **GeoBoundaries (ADM2)** — Official administrative boundaries
 - 🕒 **Period:** 1981–2025 (monthly)
 
 ---
